@@ -9,7 +9,7 @@ export class LlmClient {
                 "Content-Type": "application/json",
                 ...(appConfig.llm.apiKey ? { Authorization: `Bearer ${appConfig.llm.apiKey}` } : {}),
             },
-            timeout: 40_000,
+            timeout: 120_000,
         });
     }
     async generateCompletion(prompt) {

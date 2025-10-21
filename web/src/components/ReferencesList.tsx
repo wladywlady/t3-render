@@ -24,19 +24,19 @@ export function ReferencesList({ messages }: Props) {
   }, [messages]);
 
   if (references.length === 0) {
-    return <span className="text-xs text-slate-500">La respuesta mostrará las referencias utilizadas.</span>;
+    return <span className="text-xs text-neutral-500">La respuesta mostrara las referencias utilizadas.</span>;
   }
 
   return (
-    <div className="flex flex-wrap items-center gap-2 text-xs text-slate-300">
-      <span className="font-semibold uppercase tracking-wide text-slate-400">Referencias:</span>
+    <div className="flex flex-wrap items-center gap-2 text-xs text-neutral-600">
+      <span className="font-semibold uppercase tracking-[0.2em] text-neutral-500">Referencias:</span>
       {references.map((reference) => (
         <span
           key={reference.label}
-          className="rounded-full border border-slate-700 bg-slate-900/70 px-3 py-1 text-xs text-slate-200"
+          className="rounded-full border border-neutral-300 bg-[#f8f9fb] px-3 py-1 text-xs text-[#171A20]"
         >
-          {reference.label} · {reference.model}
-          {reference.pages ? ` · ${reference.pages}` : ""}
+          {reference.label} - {reference.model}
+          {reference.pages ? ` - ${reference.pages}` : ""}
         </span>
       ))}
     </div>

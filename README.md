@@ -1,6 +1,6 @@
-# Tarea 3 · Tesla RAG Chatbot
+# Tarea 3 · Tesla Chatbot
 
-Aplicacion full-stack (Express + React) que expone un chatbot con RAG sobre manuales de Tesla. El repositorio ya contiene el pipeline de datos, integracion con Nomic Atlas y con el LLM entregado por la catedra.
+Aplicacion full-stack (Express + React) que expone un chatbot con RAG sobre manuales de Tesla. El repositorio ya contiene el pipeline de datos, integracion con Nomic Atlas y con el LLM.
 
 ## Estructura
 - `scripts/`: pipeline de scraping, limpieza, chunking y compilado (`python -m venv` recomendado; dependencias en `scripts/requirements.txt`).
@@ -22,7 +22,7 @@ NOMIC_API_KEY=...
 NOMIC_PROJECTION_ID=...
 LLM_BASE_URL=https://asteroide.ing.uc.cl
 LLM_MODEL_NAME=integracion
-LLM_API_KEY=        # opcional si la catedra no lo requiere
+LLM_API_KEY=     
 NOMIC_K=6           # numero de fragmentos a solicitar a Nomic
 PORT=3000
 ```
@@ -80,6 +80,3 @@ El contenedor ejecuta `node server/dist/index.js` y sirve el frontend compilado.
 - Mantener al menos ~2M tokens libres para la correccion.
 - Documentar cualquier accion que consuma volumen elevado (reprocesar dataset, reindexar).
 
-## Bitacora / TODO
-- Estado actual de pendientes en `TODO.md`.
-- Registrar resultados de las pruebas manuales y validaciones finales antes de entregar.
