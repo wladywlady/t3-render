@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: tesla-rag-chatbot
+    env: docker
+    plan: free
+    region: oregon
+    dockerContext: .
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: PORT
+        value: 3000
+      - key: NOMIC_API_KEY
+        sync: false
+      - key: NOMIC_PROJECTION_ID
+        sync: false
+      - key: NOMIC_K
+        value: "6"
+      - key: LLM_BASE_URL
+        value: https://asteroide.ing.uc.cl
+      - key: LLM_MODEL_NAME
+        value: integracion
+      - key: LLM_API_KEY
+        sync: false

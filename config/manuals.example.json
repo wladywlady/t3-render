@@ -1,0 +1,47 @@
+{
+  "model_s": {
+    "display_name": "Model S",
+    "slug": "model_s",
+    "document_title": "Tesla Model S Manual del Propietario (ES-MX)",
+    "pdf_url": "https://www.tesla.com/ownersmanual/models/es_mx/Owners_Manual.pdf",
+    "source_url": "https://www.tesla.com/ownersmanual/models/es_mx/",
+    "language": "es",
+    "region": "global"
+  },
+  "model_x": {
+    "display_name": "Model X",
+    "slug": "model_x",
+    "document_title": "Tesla Model X Manual del Propietario (ES-MX)",
+    "pdf_url": "https://www.tesla.com/ownersmanual/modelx/es_mx/Owners_Manual.pdf",
+    "source_url": "https://www.tesla.com/ownersmanual/modelx/es_mx/",
+    "language": "es",
+    "region": "global"
+  },
+  "model_3": {
+    "display_name": "Model 3",
+    "slug": "model_3",
+    "document_title": "Tesla Model 3 Manual del Propietario (ES-MX)",
+    "pdf_url": "https://www.tesla.com/ownersmanual/model3/es_mx/Owners_Manual.pdf",
+    "source_url": "https://www.tesla.com/ownersmanual/model3/es_mx/",
+    "language": "es",
+    "region": "global"
+  },
+  "model_y": {
+    "display_name": "Model Y",
+    "slug": "model_y",
+    "document_title": "Tesla Model Y Manual del Propietario (ES-MX)",
+    "pdf_url": "https://www.tesla.com/ownersmanual/modely/es_mx/Owners_Manual.pdf",
+    "source_url": "https://www.tesla.com/ownersmanual/modely/es_mx/",
+    "language": "es",
+    "region": "global"
+  },
+  "cybertruck": {
+    "display_name": "Cybertruck",
+    "slug": "cybertruck",
+    "document_title": "Tesla Cybertruck Manual del Propietario (ES-MX)",
+    "pdf_url": "https://www.tesla.com/ownersmanual/cybertruck/es_mx/Owners_Manual.pdf",
+    "source_url": "https://www.tesla.com/ownersmanual/cybertruck/es_mx/",
+    "language": "es",
+    "region": "global"
+  }
+}
